@@ -22,6 +22,13 @@
                         href="style.css">
             </head>
             
+             <!-- Leaflet CSS & JS -->
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+            <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
+             <!--D3 cdn-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
             <body>
                 <nav class="navbar navbar-inverse">
                         <div class="container-fluid">
@@ -52,7 +59,7 @@
                                             <li><a href="Cat1.html">Category 1</a></li>
                                             <li><a href="Cat2.html">Category 2</a></li>
                                             <li><a href="Cat3.html">Category 3</a></li>
-                                            <li><a href="Cat4.html">Category 44</a></li>
+                                            <li><a href="Cat4.html">Category 4</a></li>
                                         </ul>
                                         </li>
                             </ul>
@@ -60,19 +67,22 @@
                         </div>
                         </nav>
 
-<body>
-    <div class="container">
-        <h1 class="plot-info">Category 2</h1>
-        <a target="_blank" href="Resources/Figures/School_Shooting_Figures/shooting_per_year_line.png">
-            <img src="https://s3.amazonaws.com/files.consumerfinance.gov/f/mortgage_originations_v2_700width.png" alt="Category 2"class="plot-img">
-        </a>
-        <p class="plot-info">
-            Blah Blah Blah  
-            <br /> 
+                        <div class="container">
+                            <h1 class="plot-info">Map</h1>
+                            <div id="map-id">
+
+                                <!-- Our JS -->
+                                <script type="text/javascript" src="logic.js"></script>
+                               
+                               </div>
+                            
+    
             
-              
-        </p>
-    </div>
+
+
+
+
+    
 </body>
 
 </html>
